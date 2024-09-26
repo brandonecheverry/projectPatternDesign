@@ -35,7 +35,7 @@ const ProfileCard = () => {
     return (
         <div>
             <div className="profileContainer">
-                { user?.photoURL ? <img src={user?.photoURL} alt="Usuario de My Inventory" className="imgProfile"/> : <FaUser size={60} className="imgProfile"/> }
+                { user?.photoURL ? <img src={user?.photoURL} alt="Usuario de Inventario UTP" className="imgProfile"/> : <FaUser size={60} className="imgProfile"/> }
                 <div className="data">
                     <h4>{ user?.displayName }</h4>
                     <h5>{ user?.email }</h5>
