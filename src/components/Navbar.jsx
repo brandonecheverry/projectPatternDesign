@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/img/logo.png';
+import logo from '../assets/img/myInventory.png';
 
 import Switch from 'react-switch';
 import { FaSun, FaMoon } from "react-icons/fa";
@@ -13,7 +13,7 @@ const Navbar = ({ page, mode, setMode }) => {
         <nav>
             <Link to="/" className="logoContainer">
                 <img src={logo} alt="My Inventory"/>
-                <h2>My Inventory</h2>    
+                <h2>Inventario UTP</h2>    
             </Link>
             <ul>
                 <li><Link to="/" className={page==='home'? 'active' : 'link'}>Home</Link></li>

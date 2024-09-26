@@ -5,7 +5,7 @@ import Switch from 'react-switch';
 import { FaSun, FaMoon } from "react-icons/fa";
 
 import "../css/sidebar.css";
-import logo from "../assets/img/logo.png";
+import logo from "../assets/img/myInventory.png";
 
 const Sidebar = ({ page, mode, setMode }) => {
 
